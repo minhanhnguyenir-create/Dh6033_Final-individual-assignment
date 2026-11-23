@@ -1,0 +1,107 @@
+/* ==========================================================
+   Digital Humanities Portfolio – style.css
+   Simple, clean style: white background, black text.
+   ========================================================== */
+
+/* ---------- 1. Colours (change them here) ---------- */
+:root {
+  --bg:   #ffffff;  /* page background */
+  --fg:   #111111;  /* main text colour */
+  --mut:  #555555;  /* grey text (subtitle, captions) */
+  --ac:   #111111;  /* headings colour */
+  --card: #ffffff;  /* background of code box and table */
+  --bd:   #cccccc;  /* border lines */
+
+  /* Keep the page away from the phone's top and bottom bars */
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+html {
+  scroll-padding-top: env(safe-area-inset-top, 0px);
+}
+
+/* ---------- 2. Page and text ---------- */
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 18px/1.7 Georgia, "Times New Roman", serif;
+}
+
+/* Main content column */
+main {
+  max-width: 720px;      /* width of the text */
+  margin: 0 auto;        /* put it in the centre */
+  padding: 28px 20px 60px;
+}
+
+/* ---------- 3. Headings ---------- */
+h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin: 0.2em 0;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: var(--ac);
+  margin: 2.2em 0 0.4em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid var(--bd);
+}
+
+/* Subtitle under the title, and figure/table captions */
+.sub {
+  color: var(--mut);
+  font-style: italic;
+}
+
+.cap {
+  font-size: 14px;
+  color: var(--mut);
+  font-style: italic;
+}
+
+/* ---------- 4. Code box (Figure 1) ---------- */
+pre {
+  background: var(--card);
+  border: 1px solid var(--bd);
+  padding: 12px;
+  overflow-x: auto;      /* scroll sideways on small screens */
+  font-size: 14px;
+}
+
+/* ---------- 5. Table (Table 1) ---------- */
+.w {
+  overflow-x: auto;      /* wrapper: table scrolls, page does not */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  font: 15px/1.5 system-ui, sans-serif;
+}
+
+th,
+td {
+  padding: 7px 10px;
+  border: 1px solid var(--bd);
+  text-align: left;
+}
+
+th {
+  color: var(--ac);
+}
+
+/* ---------- 6. Reference list (Harvard style) ---------- */
+/* First line starts at the left, next lines are indented */
+.ref p {
+  margin: 0.6em 0;
+  padding-left: 2em;
+  text-indent: -2em;
+  font-size: 15.5px;
+  line-height: 1.55;
+}
