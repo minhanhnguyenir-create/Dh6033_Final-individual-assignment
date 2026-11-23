@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Digital Humanities Portfolio</title>
+<link rel="stylesheet" href="style.css"></head><body><main>
+<p class="sub">MA Programme – Online Writing Submission</p>
+<h1>Digital Humanities Portfolio: My Most Considered Responses</h1>
+
+<h2 id="intro">Introduction</h2>
+<p>This portfolio brings together my most considered responses to the class topics. I have edited my discussion posts and weekly reflections so they follow one main question: <b>who controls digital knowledge, and who benefits from it?</b> The class moved from the early web to open access, markup, metadata, curation, preservation, social media and extended reality (XR). In each entry I link the class material to academic reading, give an example from a class activity, and add my own critical view. I use Harvard referencing throughout, and I explain technical terms in simple words.</p>
+
+<h2 id="e1">Entry 1: The “Free” Web and the Cost of Being the Product</h2>
+<p>In the first session we watched <i>The Virtual Revolution</i>, which shows the early web as a space that challenged old ideas of social order and hierarchy (Krotoski, 2010). Tim Berners-Lee first imagined the web as a system of linked information at CERN (Berners-Lee, 1989), and anyone could publish without asking permission. For me, the key idea was that authority became <i>horizontal</i>: it no longer came only from the state or the expert, but also from ordinary people.</p>
+<p>But the class then asked: what is the cost of “free”? Zuboff (2019) argues that large technology companies turn private human experience into behavioural data and use it to predict, and even shape, what people do. She calls this <i>surveillance capitalism</i>. Two terms helped me. <i>Behavioural surplus</i> is extra data a company does not need to run its service but can still use for profit. <i>Digital exhaust</i> is the trail of small data we leave behind, such as how long we look at a post. A class example stayed with me: “I’ll meet you later” gives less information than “I’ll meet you at 6:45”. Small details become valuable data.</p>
+<p>Zuboff’s argument is strong, but it can make users sound powerless. In class we tried search engines such as DuckDuckGo and Ecosia, which showed me that people can make other choices. Floridi (2014) adds that online life is now part of how we build identity, so the problem is not only technical. My conclusion is that the dream of a free and equal web was real, but a business model that treats attention and data as products later joined it.</p>
+
+<h2 id="e2">Entry 2: Open Access, Open Data and Who Gets to Read Research</h2>
+<p>Open access (OA) was one response. Suber (2012) explains that OA literature is digital, online, free of charge and free of most copyright and licence limits. The Berlin Declaration says that sharing knowledge is only half complete if society cannot easily reach it (Max Planck Society, 2003). I agree: if public money pays for research and then a paywall blocks it, the public pays twice.</p>
+<p>Eve (2014) shows that OA is especially important in the humanities, where researchers often write books and have less funding than scientists. I also noticed that “free to read” is not “free to produce”. Someone still pays for editing and publishing, so OA raises fairness questions for early-career researchers and small universities.</p>
+<p>The same discussion applies to data. The <b>FAIR principles</b> say data should be Findable, Accessible, Interoperable and Reusable (Wilkinson et al., 2016). The <b>CARE principles</b> are equally important: Collective benefit, Authority to control, Responsibility and Ethics (Carroll et al., 2020). They argue that open data is not enough if the communities who created it, especially Indigenous communities, have no say in its use. In my view, FAIR asks “can we use this data?” and CARE asks “should we, and for whose benefit?”</p>
+
+<h2 id="e3">Entry 3: From Markup to Meaning</h2>
+<p>Hockey (2004) explains that humanities computing began when scholars used computers to index and search large texts. Burdick et al. (2012) add that digital humanities now asks new questions about how knowledge is made and shared. In our practical task we added HTML tags to a poem. Below is a simple example I wrote myself.</p>
+<pre>&lt;h1&gt;Poem title&lt;/h1&gt;
+&lt;div class="stanza"&gt;
+  &lt;p&gt;First line&lt;br&gt;Second line&lt;/p&gt;
+&lt;/div&gt;</pre>
+<p class="cap">Figure 1: A simple HTML structure for a poem (my own example).</p>
+<p>This taught me three things. First, HTML separates <b>content</b> from <b>appearance</b>: a heading tag says “this is a main heading”, and size and colour are decided later. Second, links make connections between ideas visible. Third, tags carry meaning, so a computer can search and sort a text more cleverly. XML and the TEI (Text Encoding Initiative) guidelines go further, because scholars can mark names, places, dates and changes in a manuscript.</p>
+<p>My critical point is that markup is never neutral. When I decide which line is a stanza or which word matters, I am already interpreting. In the lecturer’s city analogy, markup is like street signs: it helps us find information, but someone chooses where to put the signs.</p>
+
+<h2 id="e4">Entry 4: Metadata, Paradata and the Politics of Curation</h2>
+<p>Metadata is often called “data about data”. Riley (2017) explains that it helps people find, understand and manage resources. We meet it daily: a streaming app suggests songs from tags, and a photo hides its date, device and location. In class we used one photo’s metadata to guess where it was taken, which showed me that metadata can tell a story about a person’s life. A common library standard is Dublin Core, with 15 basic elements (Dublin Core Metadata Initiative, 2020).</p>
+<div class="w"><table><tr><th>Dublin Core element</th><th>Meaning</th><th>My simple example</th></tr>
+<tr><td>Title</td><td>Name of the resource</td><td>“Class notes on metadata”</td></tr>
+<tr><td>Creator</td><td>Who made it</td><td>“Student author”</td></tr>
+<tr><td>Date</td><td>When it was made</td><td>“2026-11-12”</td></tr>
+<tr><td>Rights</td><td>Who can use it</td><td>“For study use only”</td></tr></table></div>
+<p class="cap">Table 1: Four of the 15 Dublin Core elements, with my own examples (based on Dublin Core Metadata Initiative, 2020).</p>
+<p>The key lesson from the GLAM session (Galleries, Libraries, Archives and Museums) was that <b>curation is not neutral</b>. Typically only a small part of a museum collection is on display. In the Great Wave exercise we compared how institutions describe the same artwork: some focused on art style, some on how the object was acquired, and some on Japanese cultural context. The same object told different stories. The Parthenon Marbles debate shows this on a bigger scale, because catalogue words can support one side of a political argument.</p>
+<p>Technology can add bias. Noble (2018) argues that search systems can repeat and increase social prejudice. Google Books favoured English texts, and OCR (optical character recognition) works better on some languages and fonts. “Suffrage” being read as “Sausage” in old newspapers was funny, but machine errors can hide important voices. Changes such as “illegal aliens” to “undocumented immigrants” show that controlled vocabularies change with society, so I ask: who decides the terms, and who can correct them?</p>
+<p>This leads to <b>paradata</b>, information about the <i>process</i> of making and understanding data. The London Charter says that decisions made in a digital visualisation should be recorded, so people can see how sources, reasoning and results connect (The London Charter, 2009). Denard (2012) explains that this makes heritage work more open, and Bentkowska-Kafel, Denard and Baker (2012) collect many examples. Metadata tells us <i>what</i> an object is; paradata tells us <i>how we came to know it</i>. In a reconstruction of a lost building, paradata separates evidence from imagination.</p>
+<p>Metadata can also be a tool of surveillance. We studied how COVID-19 health codes combined location, travel and contact data. I now see metadata as having three faces: a <i>helper</i> that makes apps and archives work, a <i>narrator</i> that shapes which stories are told, and a <i>watcher</i> that tracks behaviour.</p>
+
+<h2 id="e5">Entry 5: Digital Preservation – Keeping the Future Possible</h2>
+<p>Open, well-described data is useless if it disappears. The Digital Preservation Handbook defines preservation as managed activities that keep digital materials accessible for as long as needed, even when media or technology change (Digital Preservation Coalition, 2015). Files become unreadable when software gets old, storage fails, and data can be corrupted without notice (“bit rot”).</p>
+<p>Two ideas were especially useful. <b>Fixity</b> means checking that a file has not changed; a checksum works like a digital fingerprint. The OAIS model describes how an archive receives, stores and shares information using submission, archival and dissemination packages (Consultative Committee for Space Data Systems, 2012). Other actions include keeping several copies, identifying file formats, migrating to new formats, and using emulation to run old software.</p>
+<p>Preservation links to every earlier topic: metadata helps future users understand a file, open licences make copying legal, and preservation choices are also curation choices because no archive can keep everything. If resources are limited, whose records will be saved, and whose will be lost?</p>
+
+<h2 id="e6">Entry 6: Social Media, Attention and Civil Discourse</h2>
+<p>Kietzmann et al. (2011) describe seven building blocks of social media: identity, conversations, sharing, presence, relationships, reputation and groups. This helped me compare platforms, because each stresses different blocks. A professional network focuses on identity and relationships; a short-message platform focuses on conversations and sharing.</p>
+<p>The class also linked social media to the attention economy. Wu (2019) explains that human attention is limited and valuable, so companies compete for it like a resource. When I counted my phone alerts during the lecture, I realised how often my focus was broken. I was not only a user; I was also the thing being competed for.</p>
+<p>Personalisation brings another problem. Pariser (2011) warned that personalised feeds can place people in “filter bubbles”, where they mostly see ideas like their own. However, the evidence is not simple. Haim, Graefe and Brosius (2018) tested Google News and found that personalisation had a smaller effect on diversity than many people believe. Geschke, Lorenz and Holtz (2019) suggest that bubbles and echo chambers come from a mix of personal choice, social networks and algorithms. I therefore think the best response is balanced: take the risk to democracy seriously, but avoid claims the research does not support.</p>
+<p>Social media can also do good. The Ushahidi platform, whose name means “testimony” in Swahili, lets people share reports during crises. The same tools can support civic life and surveillance, so digital citizens need data literacy and careful habits.</p>
+
+<h2 id="e7">Entry 7: VR, AR, MR and XR – Opportunities and Limits</h2>
+<p>Milgram and Kishino (1994) described a “reality–virtuality continuum”, a line from the real world to a fully virtual one. On it, <b>virtual reality (VR)</b> replaces the real world with a simulated one, <b>augmented reality (AR)</b> adds computer content to the real world, and <b>mixed reality (MR)</b> lets real and virtual objects interact. <b>XR</b> covers all of them.</p>
+<p>Class examples showed uses in education, museums, training and engineering. Soltani and Morice (2020) review AR in sports training and explain that it can give visual, sound and touch feedback. In heritage, a virtual reconstruction should show which parts are evidence and which are guesses (The London Charter, 2009), which connects XR back to paradata.</p>
+<p>There are limits. Headsets can be expensive, some users find them hard to use, and many schools cannot buy them. Our slides listed cost, usability and user adoption as challenges; I would add accessibility and privacy, because headsets collect body-movement and location data, so the surveillance concerns from Entry 1 apply here too.</p>
+
+<h2 id="end">Conclusion</h2>
+<p>The topics of this class share one idea: <b>technical choices are also cultural and political choices.</b> The open web gave people freedom but also new ways to collect data (Zuboff, 2019). Open access, FAIR and CARE ask who can use knowledge and who has authority over it (Wilkinson et al., 2016; Carroll et al., 2020). Markup, metadata and paradata decide how information is found and understood (Riley, 2017; Denard, 2012). Preservation decides what the future remembers (Digital Preservation Coalition, 2015). My biggest change is that I now ask three questions about any digital source: <i>Who made it? What is missing? Who benefits?</i></p>
+
+<h2 id="refs">Reference List</h2>
+<div class="ref">
+<p>Bentkowska-Kafel, A., Denard, H. and Baker, D. (eds) (2012) <i>Paradata and transparency in virtual heritage</i>. Farnham: Ashgate.</p>
+<p>Berners-Lee, T. (1989) <i>Information management: a proposal</i>. Geneva: CERN. Available at: https://www.w3.org/History/1989/proposal.html (Accessed: 26 November 2026).</p>
+<p>Burdick, A., Drucker, J., Lunenfeld, P., Presner, T. and Schnapp, J. (2012) <i>Digital_Humanities</i>. Cambridge, MA: MIT Press.</p>
+<p>Carroll, S.R., Garba, I., Figueroa-Rodríguez, O.L., et al. (2020) ‘The CARE Principles for Indigenous Data Governance’, <i>Data Science Journal</i>, 19(1), p. 43. doi: 10.5334/dsj-2020-043.</p>
+<p>Consultative Committee for Space Data Systems (2012) <i>Reference model for an open archival information system (OAIS)</i>. Recommended Practice CCSDS 650.0-M-2. Washington, DC: CCSDS.</p>
+<p>Denard, H. (2012) ‘A new introduction to the London Charter’, in Bentkowska-Kafel, A., Denard, H. and Baker, D. (eds) <i>Paradata and transparency in virtual heritage</i>. Farnham: Ashgate, pp. 57–71.</p>
+<p>Digital Preservation Coalition (2015) <i>Digital preservation handbook</i>. 2nd edn. Available at: https://www.dpconline.org/handbook (Accessed: 26 November 2026).</p>
+<p>Dublin Core Metadata Initiative (2020) <i>Dublin Core Metadata Element Set, Version 1.1</i>. Available at: https://www.dublincore.org/specifications/dublin-core/dces/ (Accessed: 26 November 2026).</p>
+<p>Eve, M.P. (2014) <i>Open access and the humanities</i>. Cambridge: Cambridge University Press.</p>
+<p>Floridi, L. (2014) <i>The fourth revolution: how the infosphere is reshaping human reality</i>. Oxford: Oxford University Press.</p>
+<p>Geschke, D., Lorenz, J. and Holtz, P. (2019) ‘The triple-filter bubble: using agent-based modelling to test a meta-theoretical framework for the emergence of filter bubbles and echo chambers’, <i>British Journal of Social Psychology</i>, 58(1), pp. 129–149. doi: 10.1111/bjso.12286.</p>
+<p>Haim, M., Graefe, A. and Brosius, H.-B. (2018) ‘Burst of the filter bubble? Effects of personalization on the diversity of Google News’, <i>Digital Journalism</i>, 6(3), pp. 330–343.</p>
+<p>Hockey, S. (2004) ‘The history of humanities computing’, in Schreibman, S., Siemens, R. and Unsworth, J. (eds) <i>A companion to digital humanities</i>. Oxford: Blackwell, pp. 3–19.</p>
+<p>Kietzmann, J.H., Hermkens, K., McCarthy, I.P. and Silvestre, B.S. (2011) ‘Social media? Get serious! Understanding the functional building blocks of social media’, <i>Business Horizons</i>, 54(3), pp. 241–251. doi: 10.1016/j.bushor.2011.01.005.</p>
+<p>Krotoski, A. (2010) <i>The virtual revolution</i>, Episode 1: ‘The great levelling?’. BBC Two, 30 January.</p>
+<p>Max Planck Society (2003) <i>Berlin declaration on open access to knowledge in the sciences and humanities</i>. Available at: https://openaccess.mpg.de/Berlin-Declaration (Accessed: 26 November 2026).</p>
+<p>Milgram, P. and Kishino, F. (1994) ‘A taxonomy of mixed reality visual displays’, <i>IEICE Transactions on Information and Systems</i>, E77-D(12), pp. 1321–1329.</p>
+<p>Noble, S.U. (2018) <i>Algorithms of oppression: how search engines reinforce racism</i>. New York: New York University Press.</p>
+<p>Pariser, E. (2011) <i>The filter bubble: what the Internet is hiding from you</i>. London: Viking.</p>
+<p>Riley, J. (2017) <i>Understanding metadata: what is metadata, and what is it for?</i> Baltimore, MD: NISO.</p>
+<p>Soltani, P. and Morice, A.H.P. (2020) ‘Augmented reality tools for sports education and training’, <i>Computers &amp; Education</i>, 155, article 103923. doi: 10.1016/j.compedu.2020.103923.</p>
+<p>Suber, P. (2012) <i>Open access</i>. Cambridge, MA: MIT Press.</p>
+<p>The London Charter (2009) <i>The London Charter for the computer-based visualisation of cultural heritage</i>, Version 2.1. Available at: https://www.londoncharter.org (Accessed: 26 November 2026).</p>
+<p>Wilkinson, M.D., Dumontier, M., Aalbersberg, I.J., et al. (2016) ‘The FAIR Guiding Principles for scientific data management and stewardship’, <i>Scientific Data</i>, 3, article 160018.</p>
+<p>Wu, T. (2019) ‘Blind spot: the attention economy and the law’, <i>Antitrust Law Journal</i>, 82(3), pp. 771–806.</p>
+<p>Zuboff, S. (2019) <i>The age of surveillance capitalism: the fight for a human future at the new frontier of power</i>. London: Profile Books.</p>
+</div>
+</main></body></html>
